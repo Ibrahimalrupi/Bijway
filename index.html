@@ -1,0 +1,404 @@
+ <!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>البجاوي للتخييم - متجر معدات البر والرحلات</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- خطوط وأيقونات -->
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!-- AOS Animate On Scroll -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- شاشة الانتظار -->
+  <div id="loadingScreen">
+    <div class="loading-logo">
+      <span class="bijawy-logo-text">البجاوي</span>
+      <span class="loading-spinner"></span>
+    </div>
+    <div class="loading-message">جاري تحميل البجاوي...</div>
+  </div>
+
+  <!-- القائمة العلوية -->
+  <nav class="navbar">
+    <ul class="nav-links">
+      <li><a href="#home">الرئيسية</a></li>
+      <li><a href="#products">منتجاتنا</a></li>
+      <li><a href="#testimonials">آراء العملاء</a></li>
+      <li><a href="#about">من نحن</a></li>
+      <li><a href="#contact">تواصل معنا</a></li>
+    </ul>
+    <span class="bijawy-circle navbar-logo">ب</span>
+  </nav>
+
+  <!-- الهيرو -->
+  <section class="hero-section" id="home">
+    <div class="hero-slider">
+      <div class="hero-slide active">
+        <img src="mig660.jpg" alt="تخييم في الجبال" class="slide-img">
+        <div class="slide-overlay-north"></div>
+        <div class="hero-right" data-aos="fade-left">
+          <h1 class="hero-title">رحلة في أحضان الطبيعة</h1>
+          <h2 class="hero-subtitle">اكتشف متعة المخيمات الجبلية مع أفضل المعدات</h2>
+          <div class="hero-desc">استمتع بالأجواء والخدمات الفاخرة من البجاوي للتخييم.</div>
+          <div class="hero-actions">
+            <a href="#products" class="hero-btn">اطلب الآن</a>
+            <a href="#about" class="hero-btn ghost">شاهد قصتنا</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-slide">
+        <img src="mig999.jpg" alt="تخييم في الصحراء" class="slide-img">
+        <div class="slide-overlay-north"></div>
+        <div class="hero-right" data-aos="fade-left">
+          <h1 class="hero-title">تجربة برية أصيلة</h1>
+          <h2 class="hero-subtitle">خيم وأدوات أصلية وخدمة توصيل سريعة لكل مكان</h2>
+          <div class="hero-desc">جرب منتجاتنا وتمتع بتجربة تخييم لا تنسى.</div>
+          <div class="hero-actions">
+            <a href="#products" class="hero-btn">شاهد المنتجات</a>
+            <a href="#contact" class="hero-btn ghost">تواصل معنا</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-slide">
+        <img src="mig888.jpg" alt="تخييم ليلي" class="slide-img">
+        <div class="slide-overlay-north"></div>
+        <div class="hero-right" data-aos="fade-left">
+          <h1 class="hero-title">ليالي التخييم مع البجاوي</h1>
+          <h2 class="hero-subtitle">إضاءة، راحة، أمان، وكل مستلزمات البر</h2>
+          <div class="hero-desc">نوفر لك كل ما تحتاجه لرحلة مثالية.</div>
+          <div class="hero-actions">
+            <a href="#products" class="hero-btn">استعرض المنتجات</a>
+            <a href="#achievements" class="hero-btn ghost">شهاداتنا</a>
+          </div>
+        </div>
+      </div>
+      <div class="slider-dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- من نحن -->
+  <section class="about-section" id="about">
+    <div class="about-img-box" data-aos="fade-right">
+      <img src="IMG-20250417-WA0026.jpg" alt="تخييم البجاوي">
+    </div>
+    <div class="about-content" data-aos="fade-left">
+      <h2 class="about-title-main">من نحن</h2>
+      <div class="about-title-underline"></div>
+      <div class="about-title-anim">في عمق الجنوب، حيث تمتد الصحراء وتتنفس الجبال هواء الحرية، وُلدت فكرة “البجاوي” لمنتجات التخييم من قلب الشلاتين.
+نحن متجر متخصص في توفير أدوات ومستلزمات التخييم الأصيلة، مستوحاة من تراث البجا الكرِيم، ومزودة بأحدث وسائل الراحة والاعتمادية.
+
+في البجاوي، نؤمن أن التخييم ليس مجرد مغامرة، بل أسلوب حياة. لذلك نحرص على تقديم منتجات تجمع بين الأصالة والجودة، لتكون رفيقك الأمين في كل رحلة.
+</div>
+      <div class="about-camping-note">
+        نقدم لكم كل ما يحتاجه عشاق التخييم من معدات أصلية وخدمات متكاملة، مع ضمان الجودة والسعر المناسب.
+      </div>
+      <div class="about-features-grid">
+        <div class="feature-item"><i class="bi bi-tent"></i> معدات أصلية</div>
+        <div class="feature-item"><i class="bi bi-shield-check"></i> ضمان جودة</div>
+        <div class="feature-item"><i class="bi bi-truck"></i> توصيل سريع</div>
+        <div class="feature-item"><i class="bi bi-emoji-smile"></i> دعم على مدار الساعة</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- المنتجات -->
+  <section class="products-section" id="products">
+    <h2 class="section-title" data-aos="fade-up">منتجاتنا</h2>
+    <div class="product-grid">
+      <!-- منتج 1 -->
+      <div class="product-card" data-aos="zoom-in">
+        <img src="IMG-20250417-WA0052.jpg" alt="خيمة بجاوي">
+        <h3>خيمة بجاوي فاخرة</h3>
+        <div class="product-rating">
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star empty">☆</span>
+          <span class="rating-number">4.0</span>
+        </div>
+        <div class="price">8000 ج.م</div>
+        <p>خيمة مقاومة للمطر والحرارة، مناسبة لجميع فصول السنة.</p>
+        <button class="add-cart-btn">أضف إلى السلة</button>
+      </div>
+       <!-- منتج 2 -->
+     <div class="product-card" data-aos="zoom-in">
+      <img src="IMG-20250417-WA0000.jpg" alt="كرسي تخييم قابل للطي">
+      <h3>كرسي تخييم قابل للطي</h3>
+      <div class="product-rating">
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star empty">☆</span>
+        <span class="rating-number">4.0</span>
+      </div>
+  <div class="price">700 ج.م</div>
+  <p>كرسي خفيف الوزن، مريح وسهل الطيّ، مثالي لرحلات التخييم.</p>
+  <button class="add-cart-btn">أضف إلى السلة</button>
+</div>
+      <!-- منتج 3 -->
+      <div class="product-card" data-aos="zoom-in">
+        <img src="img.10.jpg" alt="مصباح LED">
+        <h3>مصباح تخييم LED</h3>
+        <div class="product-rating">
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="rating-number">5.0</span>
+        </div>
+        <div class="price">450 ج.م</div>
+        <p>مصباح قوي ببطارية تدوم طويلًا، إضاءة متعددة الأوضاع.</p>
+        <button class="add-cart-btn">أضف إلى السلة</button>
+      </div>
+      <!-- منتج 4 -->
+<div class="product-card" data-aos="zoom-in">
+  <img src="img.7.jpg" alt="ناموسيه صغيرة للتخييم">
+  <h3>ناموسيه صغيرة للتخييم</h3>
+  <div class="product-rating">
+    <span class="star">★</span>
+    <span class="star">★</span>
+    <span class="star">★</span>
+    <span class="star empty">☆</span>
+    <span class="star empty">☆</span>
+    <span class="rating-number">3.0</span>
+  </div>
+  <div class="price">900 ج.م</div>
+  <p>ناموسيه خفيفة الوزن وسهلة التركيب، مناسبة لشخصين.</p>
+  <button class="add-cart-btn">أضف إلى السلة</button>
+</div>
+      <!-- منتج 5 -->
+<div class="product-card" data-aos="zoom-in">
+  <img src="img.3.jpg" alt="كيس نوم أبيض">
+  <h3>كيس نوم أبيض للتخييم</h3>
+  <div class="product-rating">
+    <span class="star">★</span>
+    <span class="star">★</span>
+    <span class="star">★</span>
+    <span class="star">★</span>
+    <span class="star empty">☆</span>
+    <span class="rating-number">4.0</span>
+  </div>
+  <div class="price">600 ج.م</div>
+  <p>كيس نوم مريح ودافئ بلون أبيض، مناسب لجميع فصول السنة.</p>
+  <button class="add-cart-btn">أضف إلى السلة</button>
+</div>
+      <!-- منتج 6 -->
+<div class="product-card" data-aos="zoom-in">
+  <img src="img.4.jpg" alt="كيس نوم أصفر">
+  <h3>كيس نوم - اللون الأصفر</h3>
+  <div class="product-rating">
+    <span class="star">★</span>
+    <span class="star">★</span>
+    <span class="star">★</span>
+    <span class="star">★</span>
+    <span class="star empty">☆</span>
+    <span class="rating-number">4.0</span>
+  </div>
+  <div class="price"> 600 ج.م</div>
+  <p>كيس نوم مريح بتصميم عملي ولون أصفر بارز، مثالي للأجواء الباردة.</p>
+  <button class="add-cart-btn">أضف إلى السلة</button>
+</div>
+      <!-- منتج 7 -->
+<div class="product-card" data-aos="zoom-in">
+  <img src="img.11.jpg" alt="حلة السفيان">
+  <h3>حلة السفيان للتخييم</h3>
+  <div class="product-rating">
+    <span class="star">★</span>
+    <span class="star">★</span>
+    <span class="star">★</span>
+    <span class="star">★</span>
+    <span class="star">★</span>
+    <span class="rating-number">5.0</span>
+  </div>
+  <div class="price"> 1800 ج.م</div>
+  <p>حلة تقليدية مصنوعة من الألمنيوم الثقيل، مثالية لطهي الطعام في البر والرحلات.</p>
+  <button class="add-cart-btn">أضف إلى السلة</button>
+</div>
+      <!-- منتج 8 -->
+<div class="product-card" data-aos="zoom-in">
+  <img src="img.3.jpg" alt="غلاية مياه">
+  <h3>غلاية مياه ×2</h3>
+  <div class="product-rating">
+    <span class="star">★</span>
+    <span class="star">★</span>
+    <span class="star">★</span>
+    <span class="star">★</span>
+    <span class="star empty">☆</span>
+    <span class="rating-number">4.0</span>
+  </div>
+  <div class="price">1400 ج.م</div>
+  <p>طقم غلايتين للماء من الألمنيوم، مثالية للرحلات والتخييم.</p>
+  <button class="add-cart-btn">أضف إلى السلة</button>
+</div> 
+  </section>
+
+  <!-- قسم آراء العملاء -->
+  <section class="testimonials-section" id="testimonials">
+    <h2 class="testimonials-title" data-aos="fade-up">آراء عملائنا</h2>
+    <div class="testimonials-grid testimonials-two">
+      <div class="testimonial-card" data-aos="fade-right">
+        <img class="testimonial-img" src="hag2.jpg" alt="رجل عميل 1">
+        <div class="testimonial-stars">★★★★★</div>
+        <div class="testimonial-name">الأستاذ عبد الله</div>
+        <div class="testimonial-text">خدمة ممتازة وسرعة في التوصيل. البجاوي الأفضل في الشلاتين!</div>
+      </div>
+      <div class="testimonial-card" data-aos="fade-left">
+        <img class="testimonial-img" src="hag.webp" alt="رجل عميل 2">
+        <div class="testimonial-stars">★★★★★</div>
+        <div class="testimonial-name">الحاج محمود</div>
+        <div class="testimonial-text">جودة المنتجات رائعة، وتعامل راقي. أنصح الجميع بتجربة البجاوي.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- قسم الفروع -->
+  <section class="main-branch-section" id="branches">
+    <h2 class="main-branch-title" data-aos="fade-up">الفرع الرئيسي</h2>
+    <div class="main-branch-flex">
+      <div class="branch-info" data-aos="zoom-in">
+        <img src="shlattein.png" class="branch-main-img" alt="فرع الشلاتين">
+        <div class="branch-main-name">البجاوي في مدينة الشلاتين</div>
+        <div class="branch-main-meta">
+          <div><i class="bi bi-geo-alt"></i> شارع السوق الدولي</div>
+          <div><i class="bi bi-clock"></i> من 9 صباحًا إلى 11 مساءً</div>
+          <div><i class="bi bi-whatsapp"></i> 0555555555</div>
+        </div>
+        <div class="branch-main-actions">
+          <a href="tel:0555555555" class="branch-btn cta"><i class="bi bi-telephone"></i> اتصل</a>
+          <a href="https://maps.google.com" target="_blank" class="branch-btn"><i class="bi bi-geo-alt"></i> الموقع</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- قسم الانضمام والتواصل -->
+  <section class="join-section" id="contact">
+    <div class="join-main">
+      <div class="join-content" data-aos="fade-up">
+        <h2 class="join-title">انضم إلى عائلة البجاوي</h2>
+        <div class="join-subtitle">ابقَ على تواصل معنا واحصل على المزايا</div>
+        <div class="join-icons">
+          <div class="join-icon-box">
+            <i class="bi bi-gift"></i>
+            <span>عروض حصرية</span>
+          </div>
+          <div class="join-icon-box">
+            <i class="bi bi-newspaper"></i>
+            <span>أحدث الأخبار</span>
+          </div>
+          <div class="join-icon-box">
+            <i class="bi bi-star"></i>
+            <span>مزايا الأعضاء</span>
+          </div>
+          <div class="join-icon-box">
+            <i class="bi bi-chat-dots"></i>
+            <span>دعم مباشر</span>
+          </div>
+        </div>
+      </div>
+      <div class="join-form-box" data-aos="fade-left">
+        <form id="subscribeForm" class="subscribe-form">
+          <input type="email" name="email" placeholder="أدخل بريدك الإلكتروني" required>
+          <button type="submit" class="hero-btn">اشترك الآن</button>
+        </form>
+        <div class="join-stars-row">
+          <span>انضم إلى عائلة البجاوي</span>
+          <span class="star-row">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+          </span>
+        </div>
+        <div class="join-logo-row">
+          <span class="join-circle">جيم</span>
+          <span class="join-brand">البجاوي للتخييم</span>
+        </div>
+        <div class="join-desc">
+          متجر البجاوي يقدم لكم أفضل معدات التخييم والرحلات البرية مع خدمة عملاء مميزة وتوصيل سريع لجميع أنحاء المملكة.
+        </div>
+        <div class="join-contact-row">
+          <span><i class="bi bi-telephone"></i> 0555555555</span>
+          <span><i class="bi bi-envelope"></i> info@bijawycamp.com</span>
+          <span><i class="bi bi-geo-alt"></i> الشلاتين - السوق الدولي</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- الإنجازات والشهادات -->
+  <section class="achievements-section" id="achievements">
+    <h2 class="main-branch-title" data-aos="fade-up">الإنجازات والشهادات</h2>
+    <div class="achievements-grid">
+      <div class="achievement-box" data-aos="zoom-in">
+        <span>10+</span>
+        سنوات خبرة
+      </div>
+      <div class="achievement-box" data-aos="zoom-in">
+        <span>1000+</span>
+        عميل سعيد
+      </div>
+      <div class="achievement-box" data-aos="zoom-in">
+        <span><i class="bi bi-award"></i></span>
+        شهادات جودة
+      </div>
+      <div class="achievement-box" data-aos="zoom-in">
+        <span>4.9★</span>
+        تقييم ممتاز
+      </div>
+    </div>
+  </section>
+
+  <!-- الفوتر -->
+<footer class="modern-footer">
+  <div class="footer-main">
+    <div class="footer-section footer-about" data-aos="fade-left">
+      <h3>عن المتجر</h3>
+      <p>البجاوي لمنتجات التخييم منصة متخصصة لتوفير أفضل مستلزمات البر والرحلات لعشاق المغامرة والطبيعة.</p>
+    </div>
+    <div class="footer-section footer-links" data-aos="fade-right">
+      <h3>تواصل معنا</h3>
+      <div class="footer-icons">
+        <a href="mailto:info@bijawycamp.com" class="footer-icon" title="الإيميل"><i class="bi bi-envelope"></i></a>
+        <a href="https://wa.me/966555555555" class="footer-icon" title="واتساب"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://twitter.com/" class="footer-icon" title="تويتر"><i class="bi bi-twitter"></i></a>
+        <a href="https://instagram.com/" class="footer-icon" title="إنستجرام"><i class="bi bi-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-divider"></div>
+  <div class="footer-bottom">
+    <span>© البجاوي - جميع الحقوق محفوظة</span>
+  </div>
+</footer>
+
+  <!-- سلة جانبية وزر سلة ثابت -->
+  <button class="fixed-cart-btn" id="sideCartBtn">
+    <i class="bi bi-cart"></i>
+    <span id="cartCountFixed">0</span>
+  </button>
+  <div class="side-cart" id="sideCart">
+    <div class="side-cart-header">
+      <span>سلة المشتريات</span>
+      <button class="close-cart-btn" id="closeCart"><i class="bi bi-x-lg"></i></button>
+    </div>
+    <div id="cartItems" class="cart-items-list"></div>
+    <button class="checkout-btn" id="checkoutBtn">إتمام الطلب</button>
+  </div>
+  <audio id="cartSound" src="https://cdn.pixabay.com/audio/2022/03/15/audio_115b9c7ddb.mp3"></audio>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
